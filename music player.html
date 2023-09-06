@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Music Player</title>
+    <link rel="stylesheet" href="music player.css">
+    <script src="https://kit.fontawesome.com/cfa60e452d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Varela+Round">
+</head>
+<body>
+    <div class="musicBox">
+        <img src="" alt="music cover" id="musicCover">
+        <audio src="" id="music"></audio>
+        <div class="songInfo">
+            <p id="musicTitle"></p>
+            <p id="musicSinger"></p>
+        </div>
+        <span id="currentTime"></span>
+        <span id="duration"></span>
+        <progress id="progressBar" value="0" max="100"></progress>
+        <i class="fa-solid fa-backward-step" id="nextSong" title="next song"></i>
+        <i class="fa-solid fa-play" id="playPause" title="play"></i>
+        <i class="fa-solid fa-forward-step" id="previousSong" title="previous song"></i>
+
+    </div>
+
+    <script src="music player.js"></script>
+</body>
+</html>

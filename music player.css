@@ -1,0 +1,101 @@
+body{
+    background-color: #D1C4E9;
+}
+*{
+    font-family:"Varela Round";
+}
+.musicBox{
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    box-shadow: #78909C 0px 0px 15px 5px;
+}
+.musicBox img{
+    width: 250px;
+    height: auto;
+    position: absolute;
+    top: -35px;
+    left: 14.5%;
+    border-radius: 20px;
+    box-shadow: #78909C 0px 0px 20px 5px;
+}
+
+.songInfo{
+width: 250px;
+    position: absolute;
+    top: 40%;
+    left: 16%;
+
+}
+.musicBox #musicTitle{
+ text-align: center;
+   font-weight: 900;
+   font-size: 30px;
+   margin: 65px 0 5px 0;
+}
+.musicBox #musicSinger{
+ text-align: center;
+   font-weight: 400;
+   font-size: 20px;
+   margin-top: 0;
+
+ }
+
+ #progressBar{
+    -webkit-appearance: none;
+    position: absolute;
+    top: 80%;
+   left: 5%;
+   width: 90%;
+   height: 7px;
+   cursor: pointer;
+ }
+ progress#progressBar::-webkit-progress-bar{
+  background-color: white;
+  border: 1px solid  gray;
+  border-radius: 20px;
+ }
+
+ progress#progressBar::-webkit-progress-value{
+  background: #212121 !important;
+ }
+
+ .musicBox i{
+    position: absolute;
+    top: 85%;
+    font-size: 45px;
+    color: #212121;
+    cursor: pointer;
+ }
+ .musicBox i:active{
+ color: #37474F;
+ }
+
+ .musicBox #playPause{
+  left: 46%;
+ }
+
+ .musicBox #previousSong{
+    left:29% ;
+ }
+
+ .musicBox #nextSong{
+  left: 63%;
+ }
+
+ .musicBox span{
+    position: absolute;
+    top: 75%;
+ }
+ .musicBox #duration{
+    right: 7%;
+ }
+ .musicBox #currentTime{
+    left: 7%;
+ }
